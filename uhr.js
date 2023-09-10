@@ -168,7 +168,7 @@ class UHR {
       icsOutput += `DTSTART:${startDateFormatted}T${h.hora_ini.replace(":", "")}00\n`;
       icsOutput += `DTEND:${endDateFormatted}T${h.hora_fin.replace(":", "")}00\n`;
       icsOutput += `SUMMARY:${h.nomasig}\n`;
-      icsOutput += `DESCRIPTION:${h.grupo}\n`;
+      icsOutput += `DESCRIPTION:Groups: ${h.grupom}\\nPDI: ${h.pdi}\\nCurso: ${h.curso}\\nLanguage: ${h.idioma}\\ncodgis: ${h.codgis}\n`;
       icsOutput += `LOCATION:${h.espacio}\n`;
       icsOutput += "END:VEVENT\n";
     }
