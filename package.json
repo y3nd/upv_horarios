@@ -1,0 +1,15 @@
+{
+  "name": "upv_horarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "uhr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "y3n",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "jsonrepair": "^3.2.0"
+  }
+}
